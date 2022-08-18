@@ -46,7 +46,7 @@ public class HomeController {
 		  log.info("Home Controller");
 		  return "home"; 
 		  }
-	@GetMapping("/index")
+	@GetMapping("/")
 	  public String index() {
 		  log.info("Index Controller");
 		  return "index"; 
